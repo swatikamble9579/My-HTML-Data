@@ -1,0 +1,115 @@
+.container {
+    height: 780px;
+    /* width:100%; */
+    display: grid;
+    grid-template-columns: 200px 200px 200px 200px 200px 200px 200px;
+    grid-template-rows: 60px 50px 80px 100px 80px 60px;
+    /* gap: 10px; */
+    /* color: antiquewhite; */
+
+}
+
+.header-logo {
+
+    background-color: #f69090;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    border: 3px solid black;
+    text-align: center;
+    
+}
+
+.heading-banner {
+    background-color: rgb(41, 156, 209);
+    grid-row-start: 1;
+    grid-row-end: 2;
+    grid-column-start: 2;
+    grid-column-end: 7;
+    border: 3px solid black;
+    text-align: center;
+    gap:10px;
+}
+
+.header-bar {
+    background-color: rgba(221, 21, 204, 0.678);
+    grid-row-start: 2;
+    grid-row-end: 3;
+    grid-column-start: 1;
+    grid-column-end: 7;
+    border: 3px solid black;
+    text-align: center;
+}
+
+.left-block {
+    background-color: #8246e4;
+    grid-row-start: 3;
+    grid-row-end: 6;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    border: 3px solid black;
+    text-align: center;
+}
+
+.center-center-block {
+    background-color: rgb(224, 244, 144);
+    grid-row-start: 3;
+    grid-row-end: 4;
+    grid-column-start: 2;
+    grid-column-end: 6;
+    border: 3px solid black;
+    text-align: center;
+}
+
+.center-left-block {
+    background-color: rgb(160, 239, 169);
+    /* grid-row-start: 4;
+    grid-row-end: 5; */
+    grid-row: 4/5;
+    grid-column-start: 2;
+    grid-column-end: 4;
+    border: 3px solid black;
+    text-align: center;
+}
+
+.center-right-block {
+    background-color: rgb(9, 158, 109);
+    grid-row-start: 4;
+    grid-row-end: 5;
+    grid-column-start: 4;
+    grid-column-end: 6;
+    border: 3px solid black;
+    text-align: center;
+    font-weight: bolder;
+}
+
+.module-center {
+    background-color: rgb(140, 210, 188);
+    grid-row-start: 5;
+    grid-row-end: 6;
+    grid-column-start: 2;
+    grid-column-end: 6;
+    border: 3px solid black;
+    text-align: center;
+}
+
+.right-block {
+    background-color: rgb(245, 168, 232);
+    grid-row-start: 3;
+    grid-row-end: 6;
+    grid-column-start: 6;
+    grid-column-end: 7;
+    border: 3px solid black;
+    text-align: center;
+}
+
+.footer-bar {
+    background-color: rgb(116, 88, 88);
+    grid-row-start: 6;
+    grid-row-end: 7;
+    grid-column-start: 1;
+    grid-column-end: 7;
+    border: 3px solid black;
+    text-align: center;
+}

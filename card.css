@@ -1,0 +1,83 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+
+}
+
+body {
+    background-color: rgb(216, 226, 226);
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    padding: 50px;
+
+}
+
+.card {
+    width: 260px;
+    background-color: azure;
+    /* border-radius: 20px; */
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.80);
+}
+
+.card:hover {
+    transform: translateY(-10px);
+}
+
+.card img {
+    height: 180px;
+    width: 100%;
+
+
+}
+
+.card h2 {
+    margin: 15px 0 10px;
+}
+
+.card p {
+    font-size: 14px;
+    color: rgb(146, 144, 144);
+}
+
+.card h3 {
+    margin: 10px 0;
+    color: blue;
+}
+
+.stars {
+    margin: 10px;
+}
+
+.btn {
+    width: 100%;
+    border: none;
+    padding: 12px;
+    border-radius: 0 0 15px 15px;
+    color: white;
+    font-size: 16px;
+
+}
+
+.watch {
+    background-color: rgb(177, 147, 135);
+}
+
+.shoes {
+    background-color: rgb(119, 157, 144);
+}
+
+.mobile {
+    background-color: rgb(111, 150, 111);
+}
+
+.headphones {
+    background-color: rgb(117, 152, 152);
+}

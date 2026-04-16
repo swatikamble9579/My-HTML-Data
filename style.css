@@ -1,0 +1,25 @@
+div{
+    height:300px;
+    width:300px;
+    background-color: rebeccapurple;
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSOtzu3ea7JU3W5DX2L5iwp-nZ2B-gYyJ2CNQ&s');
+    background-size: no-repeat;
+    background-size: cover;
+    background-position-x:-300px ;
+    background-position-y: -300px;
+
+}    
+
+/* box-model border properties */
+div{
+    height:300px;
+    width:300px;
+    background-color: greenyellow;
+    border-style:groove;
+    border-width: 5px;
+    border-color:blue;
+    border-top-style: dotted;
+    border-bottom-width: 10px;
+    border-left-style: dashed;
+    
+}

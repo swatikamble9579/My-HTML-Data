@@ -1,0 +1,20 @@
+.box1 {
+    background-color: blue;
+    border-radius: 2px;
+    box-sizing: border-box;
+    height: 200px;
+    width: 200px;
+    color: black 2px;
+    border: palevioletred;
+}
+
+.box2 {
+    background-color: aqua;
+    border-radius: 2px;
+    box-sizing: border-box;
+    height: 200px;
+    width: 200px;
+    color:  black solid 2px;
+    border: red;
+
+}

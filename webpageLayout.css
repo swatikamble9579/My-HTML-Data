@@ -1,0 +1,97 @@
+body {
+  margin: 0;
+  padding: 0;
+  background: #eee;
+}
+
+.container {
+  width: 90%;
+  height: 100vh;
+  margin: auto;
+  position: relative;
+  color: white;
+
+}
+
+
+header {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  right: 10px;
+  height: 70px;
+  background: #ff3b3b;
+  text-align: center;
+  line-height: 70px;
+  font-size: 24px;
+  border: 3px solid black;
+}
+
+nav {
+  position: absolute;
+  top: 90px;
+  left: 10px;
+  right: 10px;
+  height: 70px;
+  background: #19c1dd;
+  text-align: center;
+  line-height: 70px;
+  border: 3px solid black;
+
+}
+
+
+section {
+  position: absolute;
+  top: 180px;
+  left: 10px;
+  width: 60%;
+  height: 150px;
+  background: #ffc46b;
+  text-align: center;
+  line-height: 150px;
+  border: 3px solid black;
+
+}
+
+
+article {
+  position: absolute;
+  top: 350px;
+  left: 10px;
+  width: 60%;
+  height: 150px;
+  background: #ff914d;
+  text-align: center;
+  line-height: 150px;
+  border: 3px solid black;
+
+}
+
+
+aside {
+  position: absolute;
+  top: 180px;
+  right: 10px;
+  width: 35%;
+  height: 320px;
+  background: #ff6ad5;
+  text-align: center;
+  line-height: 320px;
+  border: 3px solid black;
+
+}
+
+footer {
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
+  right: 10px;
+  height: 80px;
+  background: #777;
+  color: white;
+  text-align: center;
+  line-height: 70px;
+  border: 3px solid black;
+
+}

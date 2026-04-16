@@ -1,0 +1,47 @@
+ /* ::before  */
+p::before{
+    content:'#';
+} 
+
+ /* ::after  */
+
+/* p::after  */
+
+ p::after{
+content:'!';
+} 
+
+/* ::first-letter */
+
+ p::first-letter{
+font-size:20px;
+color:red;
+} 
+
+/* p::first-line */
+
+p::first-line{
+color:rgb(37, 8, 116);
+} 
+
+/* ::placeholder */
+
+input::placeholder{
+    color:rgb(11, 145, 33);
+} 
+
+/* ::selection */
+
+p::selection{
+    background-color: yellowgreen;
+    color:rgb(255, 123, 0);
+}
+
+/* Attribute */
+
+ img[src]{
+    border:5px solid rgb(107, 24, 59);
+}
+img[alt="not found"]{
+    border:5px double rgb(144, 201, 53);
+}  
